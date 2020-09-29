@@ -1,7 +1,7 @@
 $font-stack: "Lucida Console";
 $primary-color: #008B8B; 
 $primaryBtn: black; 
-
+@import "colors";
 
 
 header {
@@ -37,6 +37,7 @@ header {
         
     }
 }
+/* nesting */
 
 body{
     background: beige;
@@ -50,7 +51,7 @@ body{
     
 }
 
-
+/* nesting */
 
 .main {
     color: $primary-color;
@@ -60,12 +61,19 @@ body{
 
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     text-align: center;
     color: $primary-color;
     font-variant: small-caps;
 }
 
+/* extend and Inheritance */
+
+h4 {
+    @extend h1;
+    color: $myblue; 
+     
+}
 
 
 
