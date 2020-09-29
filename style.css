@@ -1,7 +1,15 @@
 header {
-  background: beige;
+  background: #008B8B;
   display: flex;
   justify-content: center;
+  padding-bottom: 25%;
+}
+header .topnav {
+  background-color: beige;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
 header .topnav ul {
   margin: 0;
@@ -29,6 +37,9 @@ body p {
 .main {
   color: #008B8B;
 }
+.main .container {
+  padding-bottom: 80%;
+}
 
 h1, h2, h3, h4 {
   text-align: center;
@@ -39,7 +50,10 @@ h1, h2, h3, h4 {
 footer {
   background: #008B8B;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 25px;
+}
+footer .container {
+  padding-bottom: 40%;
 }
 footer button {
   color: black;

@@ -3,13 +3,24 @@ $primary-color: #008B8B;
 $primaryBtn: black; 
 
 
+
 header {
-    background: beige;
+    background: $primary-color;
     display: flex;
     justify-content: center;
+    padding-bottom: 25%;
+    
+    
+
     .topnav {
-       
-        ul{
+        
+        background-color: beige;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        
+         ul{
             margin: 0; 
             padding: 0;
             list-style: none;
@@ -39,8 +50,13 @@ body{
     
 }
 
+
+
 .main {
     color: $primary-color;
+    .container{
+        padding-bottom: 80%;
+    }
 
 }
 
@@ -56,7 +72,12 @@ h1, h2, h3, h4 {
 footer {
     background: $primary-color;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 25px;
+    
+    .container {
+        padding-bottom: 40%;
+    }
+
     button {
         color: $primaryBtn;
         float: right;
