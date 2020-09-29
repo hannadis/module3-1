@@ -10,3 +10,5 @@ Nesting is something I wish I knew in the two projects before this one. It helps
 Sass partials is something I really enjoy, that I can just make my own color pallette in another file and choose from that. Im sure I will use this a lot. This will make everything work faster for me and have a nice color pallette. 
 
 @import option makes everything really clean in the script, and it makes it really organized. 
+
+Mixin and all of the above really do make everything easy, this will help a lot for the upcoming projects, its pretty nice to be able to add a rule that u will use often an add it into mixin and then add it wherever you want instead of always writing the same thing over and over again. .
