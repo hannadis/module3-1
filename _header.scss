@@ -1,0 +1,54 @@
+    @mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+
+
+header {
+    @include flexCenter();
+    background: $primary-color;
+    padding-bottom: 25%;
+    
+    
+
+    .topnav {
+        
+        background-color: beige;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        
+         ul{
+            margin: 0; 
+            padding: 0;
+            list-style: none;
+            
+            }
+            li { display: inline-block; }
+
+            a{
+                display: initial;
+                padding: 6px 24px;
+                text-decoration: none;
+            }
+        
+        
+    }
+}
+/* nesting */
+
+body{
+    background: beige;
+    p{
+        color: $primary-color;
+        font-variant : small-caps;
+        text-align: center;
+        
+    }
+
+    
+}

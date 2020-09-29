@@ -1,55 +1,10 @@
-$font-stack: "Lucida Console";
-$primary-color: #008B8B; 
-$primaryBtn: black; 
+@import "./variables";
 @import "colors";
+@import "./header";
 
 
-header {
-    background: $primary-color;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25%;
-    
-    
 
-    .topnav {
-        
-        background-color: beige;
-        overflow: hidden;
-        top: 0;
-        width: 100%;
-        text-align: center;
-        
-         ul{
-            margin: 0; 
-            padding: 0;
-            list-style: none;
-            
-            }
-            li { display: inline-block; }
 
-            a{
-                display: initial;
-                padding: 6px 24px;
-                text-decoration: none;
-            }
-        
-        
-    }
-}
-/* nesting */
-
-body{
-    background: beige;
-    p{
-        color: $primary-color;
-        font-variant : small-caps;
-        text-align: center;
-        
-    }
-
-    
-}
 
 /* nesting */
 
@@ -67,7 +22,8 @@ h1, h2, h3 {
     font-variant: small-caps;
 }
 
-/* extend and Inheritance */
+
+/* extend and Inheritance & color */
 
 h4 {
     @extend h1;

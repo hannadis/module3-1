@@ -1,7 +1,8 @@
 header {
-  background: #008B8B;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: #008B8B;
   padding-bottom: 25%;
 }
 header .topnav {
@@ -49,7 +50,7 @@ h1, h4, h2, h3 {
   font-variant: small-caps;
 }
 
-/* extend and Inheritance */
+/* extend and Inheritance & color */
 h4 {
   color: #6B88B5;
 }
