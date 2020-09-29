@@ -1,0 +1,49 @@
+header {
+  background: beige;
+  display: flex;
+  justify-content: center;
+}
+header .topnav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header .topnav li {
+  display: inline-block;
+}
+header .topnav a {
+  display: initial;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+body {
+  background: beige;
+}
+body p {
+  color: #008B8B;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.main {
+  color: #008B8B;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #008B8B;
+  font-variant: small-caps;
+}
+
+footer {
+  background: #008B8B;
+  justify-content: center;
+  padding-top: 200px;
+}
+footer button {
+  color: black;
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */

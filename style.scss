@@ -1,0 +1,70 @@
+$font-stack: "Lucida Console";
+$primary-color: #008B8B; 
+$primaryBtn: black; 
+
+
+header {
+    background: beige;
+    display: flex;
+    justify-content: center;
+    .topnav {
+       
+        ul{
+            margin: 0; 
+            padding: 0;
+            list-style: none;
+            
+            }
+            li { display: inline-block; }
+
+            a{
+                display: initial;
+                padding: 6px 24px;
+                text-decoration: none;
+            }
+        
+        
+    }
+}
+
+body{
+    background: beige;
+    p{
+        color: $primary-color;
+        font-variant : small-caps;
+        text-align: center;
+        
+    }
+
+    
+}
+
+.main {
+    color: $primary-color;
+
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: $primary-color;
+    font-variant: small-caps;
+}
+
+
+
+
+footer {
+    background: $primary-color;
+    justify-content: center;
+    padding-top: 200px;
+    button {
+        color: $primaryBtn;
+        float: right;
+        
+        
+        
+     }
+    
+}
+ 
+
